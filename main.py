@@ -14,8 +14,8 @@ def get_response(audio_id):
         "median": {"value": 0},
         "mode": {"value": 0},
         "range": {"value": 0},
-        "allowed_values": {"value": []},
-        "value_range": {"value": [0, 0]},
+        "allowed_values": {},        # ✅ FIXED
+        "value_range": {},
         "correlation": []
     }
 
